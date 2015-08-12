@@ -1,9 +1,12 @@
 /**
  * Created by tanzmitdemtod on 8/12/15.
  */
-//age example
+//arithmetic operators
 
-var yearBorn = 1990;
-var age = 2015 - yearBorn;
+//area of triangle is half of the width times the height
 
-console.log(age);
+var width = 4;
+var height = 5;
+var area = .5 * width * height;
+
+console.log(area);
