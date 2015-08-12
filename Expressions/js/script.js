@@ -1,9 +1,9 @@
 /**
  * Created by tanzmitdemtod on 8/12/15.
  */
-//Expressions
+//age example
 
-var a = 2;
-a = a + 3; //assignment operator, storing the new value of a
+var yearBorn = 1990;
+var age = 2015 - yearBorn;
 
-console.log(a);
+console.log(age);
