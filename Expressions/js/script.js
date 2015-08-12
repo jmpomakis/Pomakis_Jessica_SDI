@@ -1,11 +1,8 @@
 /**
  * Created by tanzmitdemtod on 8/12/15.
  */
-//casting
+//assignment operators
 
-var areaCode = 617;
-var firstPart = 982;
-var secPart = 9465;
-
-var phoneNo = "(" + String(areaCode) +")" + " " + String(firstPart) + "-" + String(secPart);
-console.log(phoneNo);
+var a = 3;
+a ++; //increment (+1) operator, decrement -- = -1. only works with 1
+console.log(a);
