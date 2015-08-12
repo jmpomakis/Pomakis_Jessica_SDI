@@ -3,7 +3,9 @@
  */
 //casting
 
-var stringVar = "6";
-var result = 7 + Number(stringVar); //treats stringVar as a number
+var areaCode = 617;
+var firstPart = 982;
+var secPart = 9465;
 
-console.log(result);
+var phoneNo = "(" + String(areaCode) +")" + " " + String(firstPart) + "-" + String(secPart);
+console.log(phoneNo);
