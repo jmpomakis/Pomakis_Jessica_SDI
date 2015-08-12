@@ -1,16 +1,10 @@
 /**
  * Created by tanzmitdemtod on 8/12/15.
  */
-//order of operations
+//array expressions
 
+var orangeBins = [234, 567, 883];
 
-var quiz1 = 87;
-var quiz2 = 100;
-var quiz3 = 60;
-var quiz4 = 80;
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
 
-//average is the sum of all items divided by the number of items
-
-var average = (quiz1 + quiz2 + quiz3 + quiz4) / 4;
-
-console.log(average);
+console.log(total);
