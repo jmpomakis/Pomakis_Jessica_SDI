@@ -1,10 +1,9 @@
 /**
  * Created by tanzmitdemtod on 8/12/15.
  */
-//concatenating strings
+//casting
 
-var firstName = "Jessica";
-var lastName = "Pomakis";
-var fullName = firstName + " " + lastName;
+var stringVar = "6";
+var result = 7 + Number(stringVar); //treats stringVar as a number
 
-console.log(fullName);
+console.log(result);
