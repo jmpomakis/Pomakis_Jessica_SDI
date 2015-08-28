@@ -58,3 +58,9 @@ if (whichNumbers === "florida state") {     //and this is where it's being deter
 
     alert("Your numbers are " + floridaState + ". \nGood Luck!"); //an alert to tell them their FL state numbers, and wishing them luck!
 }
+
+
+//Test results:
+//
+//PB: 4,31,16,53,47 and Powerball:  18
+//FL State: 11,15,27,32,28,33
