@@ -50,4 +50,11 @@ if (whichNumbers === "powerball") {
 
     alert("Your numbers are: " + lottoNumber + " and Powerball:  " + powerBall + ". \nGood Luck!"); //their results in an alert,
     //giving them 5 numbers between 1-59 and their 1-35 powerball selection. Also wishing them luck for good measure!
+
+
+}
+if (whichNumbers === "florida state") {     //and this is where it's being determined if they have entered "florida state"
+    floridaState = randomNumberGen(1, 53, 6); //and if so, same as before, telling the function to run with the parameters for the florida state lottery; 6 numbers between 1-53.
+
+    alert("Your numbers are " + floridaState + ". \nGood Luck!"); //an alert to tell them their FL state numbers, and wishing them luck!
 }
