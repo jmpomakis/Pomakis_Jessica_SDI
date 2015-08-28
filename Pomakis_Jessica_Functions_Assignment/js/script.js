@@ -35,3 +35,19 @@ function randomNumberGen(min, max, num){
 
     return luckyNumbers;
 } //this function is used to generate the random numbers, which for each option, we'll fill in the min and max and tell the function how many numbers to give us.
+
+//main code vv
+
+whichNumbers = numbersValidation(whichNumbers); //calling the functions to prompt the user to enter a choice to determine whether they'll be getting florida state or powerball numbers.
+console.log("You chose " + whichNumbers + "."); //this was just for me to check the code worked!
+
+
+if (whichNumbers === "powerball") {
+    //this is to validate whether the user entered "powerball", if they did, the random number generator will run and they will get:
+    lottoNumber = randomNumberGen(1, 59, 5);    //five numbers between 1-59
+    powerBall = randomNumberGen(1, 35, 1); //and one number between 1-35, which is their powerball.
+
+
+    alert("Your numbers are: " + lottoNumber + " and Powerball:  " + powerBall + ". \nGood Luck!"); //their results in an alert,
+    //giving them 5 numbers between 1-59 and their 1-35 powerball selection. Also wishing them luck for good measure!
+}
